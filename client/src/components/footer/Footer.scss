@@ -1,0 +1,100 @@
+.footer{
+    display: flex;
+    justify-content: center;
+    color: #999;
+    margin: 30px  0px;
+
+
+    img{
+        width: 24px;
+        height: 24px;
+    }
+    .container{
+        size: 1000px;
+        
+        hr{
+            // padding-top: 2px;
+            background-color: #ebe9e9;
+        }
+        .top{
+            display: flex;
+            justify-content: space-between;
+            gap: 35px;
+            margin: -5px  ;
+            margin-left: -20px;
+
+            .item{
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+
+                h2{
+                    font-size: 16px;
+                    color: #555;
+                }
+
+                span{
+                    font-weight: 300;
+                    
+                }
+            }
+        }
+
+        hr{
+        //     margin-top: 20px;
+        //    margin-bottom: -5px;
+        //    height: 2;
+        //    border: 1px solid rgb(237, 235, 235);
+        margin: 50px 0px;
+        height: 0.5;
+        width: 960px;
+        margin-left: -20px;
+        border: 1px solid #ebe9e9;
+  
+        }
+
+        .bottom{            
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .left{
+               width: max-content;
+               display: flex;
+               align-items: center;
+               gap: 20px;
+               margin-left: -20px;
+               
+               span{
+                font-size: 13px;
+                white-space: nowrap;
+               }
+            }
+            .right{
+                width: max-content;
+                display: flex;
+                align-items: center;
+                gap: 30px;
+
+                .social{
+                    display: flex;
+                    align-items: center;
+                    gap: 20px;
+                    margin-right: 62px;
+                    
+                    &:hover{
+                        box-shadow: lightgrey;
+                        border-radius: 50px;
+                        cursor: pointer;
+                    }
+                }
+
+                .link{
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                }
+            }
+        }
+    }
+}

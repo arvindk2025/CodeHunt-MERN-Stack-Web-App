@@ -1,0 +1,48 @@
+.projectCard {
+  width: 300px;
+  height: 300px;
+  border-radius: 5px;
+  cursor: pointer;
+  //box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.59);
+  margin: 2px;
+  transition: background-color 0.3s, transform 0.3s; /* Add transitions */
+
+  &:hover {
+    background-color: lightgreen; /* Change background color on hover */
+    transform: scale(1.03); /* Apply a slight scale effect on hover */
+  }
+
+  img {
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+  }
+
+  .info {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 15px;
+    background-color: whitesmoke;
+    font-size: 14px;
+    margin-top: 4px;
+
+    img {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+
+    .text {
+      h2 {
+        font-size: 14px;
+        font-weight: 500;
+      }
+      span {
+        font-size: 14px;
+        font-weight: 300;
+      }
+    }
+  }
+}

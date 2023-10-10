@@ -1,0 +1,252 @@
+.gig{
+    display: flex;
+    justify-content: center;
+
+    .container{
+       width: 1000px;
+       padding: 30px 0px;
+       display: flex;
+       gap: 50px;
+      // flex: 1;
+
+       .left{
+            flex: 2;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+
+            .breadCrumbs{
+                font-weight: 300;
+                font-size: 16px;
+                color: #555;
+            }
+            .user{
+                display: flex;
+                align-items: center;
+                gap: 10px;
+
+                .pp{
+                    width: 32px;
+                    height: 32px;
+                    border-radius: 50%;
+                }
+                span{
+                    font-size: 14px;
+                    font-weight: 500;
+                }
+                .stars{
+                    display: flex;
+                    align-items: center;
+                    gap: 5px;
+
+                    img{
+                        width: 14px;
+                        height: 14px;
+                    }
+                    span{
+                        font-size: 14px;
+                        font-weight: bold;
+                        color: #ffc108;
+                    }
+                }
+            }
+
+            .slider{
+                 width: 600px;
+                 height: 600px;
+                img{
+                    margin-right: 30px;
+                    max-height: 300px;
+                    object-fit: contain;
+                }
+            }
+
+            h2{
+                margin-top: -270px;
+                font-weight: 400;
+                //font-weight: bold;
+            }
+
+            p{
+                font-weight: 300;
+                color: rgb(137, 135, 135);
+                line-height: 25px;
+                width: 600px;
+                //font-weight: bold;
+
+            }
+
+            .seller{
+                margin-top: 50px;
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+
+                .user{
+                    display: flex;
+                    align-items: center;
+                    gap: 20px;
+
+                    img{
+                        width: 100px;
+                        height: 100px;
+                        border-radius: 50%;
+                        object-fit: cover;
+                    }
+
+                    .info{
+                        display: flex;
+                        align-items: center;
+                        flex-direction: column;
+                        gap: 10px;
+
+                        .star{
+                            display: flex;
+                            align-items: center;
+                            gap: 5px;
+        
+                            img{
+                                width: 14px;
+                                height: 14px;
+                            }
+                            span{
+                                font-size: 14px;
+                                font-weight: bold;
+                                color: #ffc108;
+                            }
+                        }
+
+                        button{
+                            background-color: white;
+                            border-radius: 5px;
+                            border: 1px solid gray;
+                            padding: 8px;
+                            cursor: pointer;
+                        }
+
+                    }
+                }
+
+                .box{
+                    height: 300px;
+                    width: 600px;
+                    border: 1px solid lightgray;
+                    border-radius: 5px;
+                    //height: max-content;
+                    padding: 20px;
+                    margin-top: 20px;
+
+                    .items{
+                        display: flex;
+                        flex-wrap: wrap;
+                        justify-content: space-between;
+
+                        .item{
+                            width: 300px;
+                            display: flex;
+                            flex-direction: column;
+                            gap: 10px;
+                            margin-bottom: 20px;
+
+                            .title{
+                                font-weight: 300;
+                            }
+                        }
+                    }
+
+                    hr{
+                        height: 0;
+                        border: 1px solid lightgray;
+                        margin-bottom: 20px;
+                    }
+                    p{
+                        font-size: 13.5px;
+                        font-weight: 400;
+                        font-weight: bold;
+                        color: rgb(171, 169, 169);
+                    }
+                }
+            }
+
+        }
+
+       .right{
+        flex: 1.5; 
+        border: 1px solid lightgray;
+        padding: 15px;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column; 
+        gap: 14px;
+        position: sticky;
+        top: 180px;
+        height: max-content;
+        max-height:500px;
+        //margin-right: 100px;
+
+        .price{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            h2{
+                font-weight: 300;
+            }
+
+            h3{
+                font-weight: 500;
+            }
+
+            p{
+                color: gray;
+                margin: 10px 0px;
+            }
+        }
+        
+        .details{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            font-size: 14px;
+            
+            .item{
+                display: flex;
+                align-items: center;
+                gap: 10px;
+
+                img{
+                    width: 20px;
+                }
+            }
+        }
+
+        .features{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            .item{
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                font-weight: 300;
+                color: gray;
+                img{
+                    width: 14px;
+                }
+            }
+        }
+
+        button{
+            background-color: #1dbf73;
+            padding: 10px;
+            color: white;
+            border: none;
+            font-weight: 500;
+            font-size: 18px;
+            width: 280px;
+            cursor: pointer;
+        }
+
+       }
+    }
+}
