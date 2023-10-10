@@ -1,4 +1,4 @@
-# CodeHunt - Freelance Marketplace for Developers
+# CodeHunt - Online Marketplace for Digital Freelance services (MERN STACK Web Application)
 
 CodeHunt is a FULL STACK (MERN STACK) Web Application. 
 It is an online Marketplace / Platform that connects freelancers and clients from all around the Globe.
