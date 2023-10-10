@@ -25,7 +25,7 @@ It is an online Marketplace / Platform that connects freelancers and clients fro
 
 - **Real-time Chat**: Clients and freelancers can communicate in real-time via an integrated messaging system.
 
-### (iv) Payments and Escrow
+### (iv) Payments Integration
 
 - **Secure Payments**: Integrated payment processing for clients to pay freelancers.
 
