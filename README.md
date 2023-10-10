@@ -4,41 +4,37 @@ CodeHunt is a FULL STACK (MERN STACK) Web Application.CodeHunt is an online Mark
 
 ![Gallary Project ](./assets/img1.png?raw=true " Gallary Project ")
 
-![Gallary Project ](./assets/img2.png?raw=true " Gallary Project ")
+![Gallary Project ](./assets/img3.png?raw=true " Gallary Project ")
+
+![Gallary Project ](./assets/img4.png?raw=true " Gallary Project ")
 
 ## Key Features
 
-### 1. User Authentication
+### (i)User Authentication
 
 - **Signup and Login**: Users can create accounts and log in securely.
 - **User Profiles**: Customize profiles with personal information and skills.
 
-### 2. Project Listings
+### (ii) Project Listings
 
 - **Create Projects**: Clients can post detailed project listings, including requirements, budget, and deadlines.
 - **Search and Browse**: Freelancers can search and filter project listings based on their skills and preferences.
 
-### 3. Messaging System
+### (iii) Messaging System
 
 - **Real-time Chat**: Clients and freelancers can communicate in real-time via an integrated messaging system.
-- **File Sharing**: Share project files, documents, and code snippets within the chat.
 
-### 4. Payments and Escrow
+### (iv) Payments and Escrow
 
 - **Secure Payments**: Integrated payment processing for clients to pay freelancers.
-- **Escrow Service**: Funds are held in escrow until the project is completed, providing security for both parties.
 
-### 5. Reviews and Ratings
+### (v) Reviews and Ratings
 
 - **Feedback System**: Clients can leave reviews and ratings for freelancers upon project completion.
 - **Profile Reputation**: Build a reputation based on the quality of work and feedback received.
 
-### 6. Notifications
 
-- **Email Notifications**: Receive email notifications for project updates, messages, and more.
-- **In-App Alerts**: Get instant alerts within the application.
-
-### 7. Tech Stack
+##  Tech Stack
 
 - **Frontend**: 
   - HTML, CSS, JavaScript
@@ -51,10 +47,10 @@ CodeHunt is a FULL STACK (MERN STACK) Web Application.CodeHunt is an online Mark
   - MongoDB for database storage
   - JWT for authentication
 - **Database**: MongoDB
-- **Payment Processing**: Stripe or PayPal API
-- **Real-time Messaging**: WebSocket or a third-party service like Pusher
+- **Payment Processing**: Stripe 
+- **Real-time Messaging**: WebSocket 
 
-### 8. Installation
+###  Installation
 
 To run CodeHunt locally, follow these steps:
 
@@ -64,7 +60,7 @@ To run CodeHunt locally, follow these steps:
 4. Create a `.env` file and configure environment variables like database connection, API keys, etc.
 5. Start the development server: `npm start`
 
-### 9. Contribution Guidelines
+###  Contribution Guidelines
 
 We welcome contributions from the community. If you'd like to contribute to CodeHunt, please follow these steps:
 
@@ -74,7 +70,7 @@ We welcome contributions from the community. If you'd like to contribute to Code
 4. Push your changes to your fork: `git push origin feature/your-feature-name`
 5. Create a pull request to the main repository.
 
-### 10. License
+###  License
 
 This project is licensed under the [MIT License](LICENSE).
 
