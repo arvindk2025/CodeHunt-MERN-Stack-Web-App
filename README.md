@@ -2,11 +2,11 @@
 
 CodeHunt is a FULL STACK (MERN STACK) Web Application.CodeHunt is an online Marketplace / Platform that connects freelancers and clients from all around the Globe.
 
-![Gallary Project ](./assets/img1.png?raw=true " Gallary Project ")
+![CodeHunt ](./assets/img1.png?raw=true " CodeHunt ")
 
-![Gallary Project ](./assets/img3.png?raw=true " Gallary Project ")
+![CodeHunt](./assets/img3.png?raw=true " CodeHunt ")
 
-![Gallary Project ](./assets/img4.png?raw=true " Gallary Project ")
+![CodeHunt](./assets/img4.png?raw=true " CodeHunt ")
 
 ## Key Features
 
