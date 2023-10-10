@@ -1,6 +1,10 @@
 # CodeHunt - Freelance Marketplace for Developers
 
-CodeHunt is a web-based platform that connects talented freelance developers with businesses and individuals in need of coding and development services. It offers a range of features to facilitate seamless collaboration between clients and freelancers.
+CodeHunt is a FULL STACK (MERN STACK) Web Application.CodeHunt is an online Marketplace / Platform that connects freelancers and clients from all around the Globe.
+
+![Gallary Project ](./assets/img1.png?raw=true " Gallary Project ")
+
+![Gallary Project ](./assets/img2.png?raw=true " Gallary Project ")
 
 ## Key Features
 
