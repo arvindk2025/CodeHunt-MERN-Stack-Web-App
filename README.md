@@ -9,6 +9,10 @@ It is an online Marketplace / Platform that connects freelancers and clients fro
 
 ![CodeHunt](./assets/img4.png?raw=true " CodeHunt ")
 
+![CodeHunt](./assets/img5.png?raw=true " CodeHunt ")
+
+![CodeHunt](./assets/img6.png?raw=true " CodeHunt ")
+
 ## Key Features
 
 ### (i)User Authentication
